@@ -1,14 +1,21 @@
 .navbar-toggler[b-7cxxmz0cwl] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #312f33;
 }
 
 .top-row[b-7cxxmz0cwl] {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255,255,255,0.1);
 }
 
 .navbar-brand[b-7cxxmz0cwl] {
     font-size: 1.1rem;
+    object-fit: contain;
+    width: 200px;
+    height: 300px;
+}
+
+.nav menu[b-7cxxmz0cwl]{
+    margin-top: 45px;
 }
 
 .oi[b-7cxxmz0cwl] {
@@ -41,7 +48,7 @@
     }
 
 .nav-item[b-7cxxmz0cwl]  a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: #312f33;
     color: white;
 }
 

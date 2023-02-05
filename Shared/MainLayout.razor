@@ -1,19 +1,34 @@
 ﻿@inherits LayoutComponentBase
 
-<PageTitle>BlazorApp</PageTitle>
-
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
+
         <div class="top-row px-4">
+            <RadzenCard Style="margin-bottom: 50px; width: fit-content; min-width: 50px;" Class="mt-3 mx-auto">
+    <RadzenMenu >
+            <RadzenMenuItem text-allign: center Text="General" Icon="home">
+                <RadzenMenuItem Text="Buttons" Path="buttons" Icon="account_circle"></RadzenMenuItem>
+                <RadzenMenuItem Text="Menu" Path="menu" Icon="line_weight"></RadzenMenuItem>
+                <RadzenMenuItem Text="ChildClick" Icon="attach_file"></RadzenMenuItem>
+                <RadzenMenuItem Text="Dialog" Path="dialog" Icon="perm_media"></RadzenMenuItem>
+                <RadzenMenuItem Text="Notification" Path="notification" Icon="announcement"></RadzenMenuItem>
+            </RadzenMenuItem>
+          
+    </RadzenMenu>
+</RadzenCard>
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
         </div>
+
 
         <article class="content px-4">
             @Body
         </article>
     </main>
 </div>
+
+
+<BlazoredModal/>

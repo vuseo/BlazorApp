@@ -1,17 +1,21 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿
+    <a class="navbar-brand" href="HomePage">
+            <img src="images\goodbye_2-wallpaper-1920x1080.jpg" alt="Sagafurs" style="float:top-left;width:100%;"/>
+    </a>
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorApp</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+
+<div class= "nav-menu" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+            <NavLink class="nav-link" href="HomePage" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home Page
             </NavLink>
         </div>
         <div class="nav-item px-3">
@@ -22,6 +26,11 @@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="fetchdata">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+          <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Modal
             </NavLink>
         </div>
     </nav>
