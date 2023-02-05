@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1I63rYsE1XDLqD7nCnPyoMRfAdpRqXjGUYvgIhyFrmY=",
+  "Hash": "QmXe10m6yhB+JkDPRuVnjE1oiVD2ctIZDGx9cnuxcuY=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\",
-      "BasePath": "_content/BlazorApp",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\The Legend\\OneDrive\\Documents\\BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
